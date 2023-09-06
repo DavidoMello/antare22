@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./Assets/background.avif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main h1 {
+    color:rgb(247, 247, 247); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 700px;
+    margin-left: 100px;
+}
+
+.card {
+    background: rgb(113, 127, 134);
+    padding: 55px 75px;
+    border-radius: 10px;
+    max-width: 50vw;
+ 
+}
+
+.card:hover{
+    box-shadow: 0px 10px 40px -12px #00000052;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    margin: 15px 0;         
+}
+
+.textfield > i {
+    color:rgb(247, 247, 247); 
+    font-size: 19pt;
+    padding-left: 2px;     
+}
+
+.textfield > input {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 14pt;   
+    margin: 10px 3px;
+    background-color: rgb(172, 165, 166);
+    color: black;
+    font-weight: 800;
+    font-size: 12pt;
+    outline: none;
+    padding: 5px;
+}
+
+input:focus{
+    border-color: rgb(166, 228, 247);
+}
+
+.textfield > input::placeholder{
+    color: black;
+    font-weight: 200;
+}
+
+.btn {
+    font-weight: 800;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(88, 81, 81);
+    box-shadow: 0px 10px 40px -12px #00000052;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover{
+    transition: background 1s;
+    background: #5a4d52;
+}
+
+
+
